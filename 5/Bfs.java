@@ -19,7 +19,7 @@ public class Bfs {
         int M = sc.nextInt();
         int Start = sc.nextInt();
         A = new ArrayList[N+1];
-        for (int i = i ; i <= N; i ++) {
+        for (int i = 0 ; i <= N; i ++) {
             A[i] = new ArrayList<Integer>();
         }
         for (int i=0; i <M; i ++) {

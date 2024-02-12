@@ -1,6 +1,6 @@
 import java.util.*;
 public class Bfs3 {
-    static boolean visited[];
+    static boolean[] visited;
     static int[] distance;
     static ArrayList<Edge>[] A;
     public static void main(String[] args) {
@@ -45,7 +45,7 @@ public class Bfs3 {
     }
 }
 
-public class Edge {
+class Edge {
     int e;
     int value;
     public Edge(int e, int value) {

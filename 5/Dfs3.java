@@ -19,8 +19,8 @@ public class Dfs3 {
         for (int i = 0 ; i < M ; i ++) {
             int S = sc.nextInt();
             int E = sc.nextInt();
-            A[S].add[E];
-            A[E].add[S];
+            //A[S].add[E];
+            //A[E].add[S];
         }
         for (int i = 0 ; i < N ; i++) {
             DFS(i, 1);

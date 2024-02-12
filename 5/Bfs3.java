@@ -36,7 +36,7 @@ public class Bfs3 {
                 int e = i.e;
                 int v = i.value;
                 if (!visited[e]) {
-                    visited = true;
+                    visited[e] = true;
                     queue.add(e);
                     distance[e] = distance[now_node] + v;
                 }
